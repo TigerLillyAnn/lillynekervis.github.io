@@ -52,6 +52,7 @@ When you are initially working on your website, it is very useful to be able to 
     ```bash
     bundle config set --local path 'vendor/bundle'
     ```
+    
     then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
 
 1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stopping and restarting Jekyll.
